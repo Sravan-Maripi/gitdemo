@@ -1,0 +1,153 @@
+welcome to second 
+text in the demo repo
+for second commit
+ lets modified
+
+#unix and git commmands Hands On excersises
+
+sravan@TIGER02308:~$ cat my-unix-session
+Script started on 2022-03-15 12:03:46+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="168" LINES="44"]
+sravan@TIGER02308:~$ pwd
+/home/sravan
+sravan@TIGER02308:~$ dir
+README  data  datasession  demo2  file.pdf  files  gitdemo  index.html  my-unix-session  s1.txt  sample.txt  srava  test  tests
+sravan@TIGER02308:~$ ls -al
+total 692
+drwxr-xr-x 1 sravan sravan    512 Mar 15 12:03 .
+drwxr-xr-x 1 root   root      512 Mar  4 16:43 ..
+-rw------- 1 sravan sravan   4248 Mar 14 17:19 .bash_history
+-rw-r--r-- 1 sravan sravan    220 Mar  4 16:43 .bash_logout
+-rw-r--r-- 1 sravan sravan   3771 Mar  4 16:43 .bashrc
+drwxr-xr-x 1 sravan sravan    512 Mar 14 16:52 .git
+-rw-r--r-- 1 sravan sravan     70 Mar 14 14:59 .gitconfig
+drwxr-xr-x 1 sravan sravan    512 Mar  4 16:44 .landscape
+drwxr-xr-x 1 sravan sravan    512 Mar  9 12:49 .local
+-rw-r--r-- 1 sravan sravan      0 Mar 15 11:44 .motd_shown
+-rw-r--r-- 1 sravan sravan    807 Mar  4 16:43 .profile
+-rw-r--r-- 1 sravan sravan      0 Mar  4 16:50 .sudo_as_admin_successful
+-rw-r--r-- 1 sravan sravan     11 Mar 14 11:07 README
+drwxr-xr-x 1 sravan sravan    512 Mar 10 12:45 data
+-rw-r--r-- 1 sravan sravan  10135 Mar  9 12:17 datasession
+drwxr-xr-x 1 sravan sravan    512 Mar 14 15:26 demo2
+-rw-r--r-- 1 sravan sravan      0 Mar 10 12:39 file.pdf
+drwxr-xr-x 1 sravan sravan    512 Mar 10 10:45 files
+drwxr-xr-x 1 sravan sravan    512 Mar 14 17:08 gitdemo
+-rw-r--r-- 1 sravan sravan 679870 Mar 10 13:15 index.html
+-rw-r--r-- 1 sravan sravan      0 Mar 15 12:03 my-unix-session
+-rw-r--r-- 1 sravan sravan      0 Mar 10 10:06 s1.txt
+-rw-r--r-- 1 sravan sravan      0 Mar 10 10:04 sample.txt
+-rw-r--r-- 1 sravan sravan     27 Mar  9 12:51 srava
+-rw-r--r-- 1 sravan sravan      5 Mar 14 11:08 test
+drwxr-xr-x 1 sravan sravan    512 Mar 10 10:02 tests
+sravan@TIGER02308:~$ ls -a
+.   .bash_history  .bashrc  .gitconfig  .local       .profile                   README  datasession  file.pdf  gitdemo     my-unix-session  sample.txt  test
+..  .bash_logout   .git     .landscape  .motd_shown  .sudo_as_admin_successful  data    demo2        files     index.html  s1.txt           srava       tests
+sravan@TIGER02308:~$ ls -R
+.:
+README  data  datasession  demo2  file.pdf  files  gitdemo  index.html  my-unix-session  s1.txt  sample.txt  srava  test  tests
+
+./data:
+data  sub_data.pdf  subfile  test.txt
+
+./demo2:
+
+./files:
+catfile.txt  file2.txt  subfile.txt
+
+./gitdemo:
+dm1.txt  test1  test1.txt  test2.txt
+
+./gitdemo/test1:
+note1.txt  test1.txt
+
+./tests:
+sravan@TIGER02308:~$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README
+        new file:   datasession
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bash_logout
+        .bashrc
+        .gitconfig
+        .landscape/
+        .motd_shown
+        .profile
+        .sudo_as_admin_successful
+        data/
+        file.pdf
+        files/
+        gitdemo/
+        index.html
+        my-unix-session
+        s1.txt
+        sample.txt
+        srava
+        test
+
+sravan@TIGER02308:~$ git log
+fatal: your current branch 'master' does not have any commits yet
+sravan@TIGER02308:~$ cd git demo
+bash: cd: too many arguments
+sravan@TIGER02308:~$ cd gitdemo
+sravan@TIGER02308:~/gitdemo$ git status
+On branch dm1
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   test1 (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sravan@TIGER02308:~/gitdemo$ git log
+commit f369d6549cd2147c47629a0cbac264eb17d3166d (HEAD -> dm1)
+Author: sravan kumar <sravan.maripi@tigeranalytics.com>
+Date:   Mon Mar 14 17:08:45 2022 +0530
+
+    branch
+
+commit 213894af75f0b04ca6c978cd220020e8c62d8256 (origin/master, master)
+Author: sravan kumar <sravan.maripi@tigeranalytics.com>
+Date:   Mon Mar 14 15:37:03 2022 +0530
+
+    second modified file
+
+commit 13bd7de0b45020d24d052f4b0979dfe1484028e9
+Author: sravan kumar <sravan.maripi@tigeranalytics.com>
+Date:   Mon Mar 14 15:33:57 2022 +0530
+
+    this my 2nd commit
+sravan@TIGER02308:~/gitdemo$ dir
+dm1.txt  test1  test1.txt  test2.txt
+sravan@TIGER02308:~/gitdemo$ cd test1.txt
+bash: cd: test1.txt: Not a directory
+sravan@TIGER02308:~/gitdemo$ cd dm1.txt
+bash: cd: dm1.txt: Not a directory
+sravan@TIGER02308:~/gitdemo$ dm1.txt
+dm1.txt: command not found
+sravan@TIGER02308:~/gitdemo$ pwd
+/home/sravan/gitdemo
+sravan@TIGER02308:~/gitdemo$ cat dm1.txt
+this was the
+branch created
+
+sravan@TIGER02308:~/gitdemo$ cat test1.txt
+helooo
+
+sravan@TIGER02308:~/gitdemo$ cat test2.txt
+welcome to second
+text in the demo repo
+for second commit
+ lets modified
+ 
+
+ 
+
+
