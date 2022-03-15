@@ -1,3 +1,457 @@
 staging / modifying and commit the filles 
 by checking the data and access the github account 
 making the log test & accessing the file
+
+Assessment 1.1 Git Demo hands On excersises:
+
+sravan@TIGER02308:~/gitdemo$ history
+    1  sudo apt get install git
+    2  exit
+    3  git status
+    4  ls
+    5  git status
+    6  ls
+    7  pwd
+    8  ls-F
+    9  ls --help
+   10  man ls
+   11  ls -F desktop
+   12  ls -F Desktop
+   13  exit
+   14  script -a ~/datasession
+   15  quit
+   16  exit
+   17  mkdir data
+   18  ls
+   19  cd
+   20  cd datasession
+   21  mkdir files
+   22  mkdir scripts
+   23  cd.
+   24  cd .
+   25  ls
+   26  ls -F data
+   27  pwd
+   28  ls
+   29  nano
+   30  exit
+   31  mkdir Documents/test
+   32  ls
+   33  pwd
+   34  cat datasession
+   35  nano datasession
+   36  ls
+   37  rmkdir scripts
+   38  rmdir scripts
+   39  ls
+   40  cd
+   41  pwd
+   42  cd files
+   43  exit
+   44  ls
+   45  mkdir tests
+   46  ls
+   47  cd /tests/case
+   48  cat test.txt
+   49  touch sample.txt
+   50  ls -t -r
+   51  cat >s1.txt
+   52  ls
+   53  cd
+   54  cd /sample
+   55  cd sample
+   56  pwd
+   57  dir
+   58  ls -al
+   59  ls -R
+   60  ls -a
+   61  ls -r
+   62  cd files
+   63  touch file2.txt
+   64  ls
+   65  pwd
+   66  cd
+   67  touch file.pdf
+   68  ls
+   69  pwd
+   70  cd .
+   71  cd ..
+   72  cd files
+   73  cd file
+   74  cd /file
+   75  ls
+   76  cd
+   77  ls
+   78  pwd
+   79  cd file
+   80  cd files
+   81  ls -R
+   82  touch subfile.txt
+   83  ls -R
+   84  cat file2.txt
+   85  nano file2.txt
+   86  cat file2.txt
+   87  ls
+   88  nano subfile.txt
+   89  cat subfile.txt
+   90  cat file2.txt subfile.txt > catfile.txt
+   91  cat catfile.txt
+   92  cat file1.txt
+   93  ls
+   94  cat file2.txt
+   95  ls -R
+   96  cd data
+   97  pwd
+   98  cd files
+   99  cd data
+  100  ls
+  101  pwd
+  102  cd .
+  103  cd ..
+  104  pwd
+  105  cd ~
+  106  cd /
+  107  cd -
+  108  cp file2.txt data
+  109  pwd
+  110  cd data
+  111  nano test.txt
+  112  cat test.txt
+  113  cp test.txt data
+  114  cp test.txt files
+  115  cd .
+  116  cd ..
+  117  cd data
+  118  ls
+  119  cat files
+  120  cat test.txt
+  121  exit
+  122  touch file.pdf
+  123  pwd
+  124  ls
+  125  cd data
+  126  ls
+  127  mv files test.txt
+  128  cat test
+  129  cat test.txt
+  130  cat files
+  131  touch sub_data
+  132  ls sub_data
+  133  nano sub_data
+  134  cat sub_data
+  135  cat data
+  136  cat sub_data
+  137  nano sub_data
+  138  cat sub_data.pdf
+  139  cat sub_data
+  140  mv sub_data  subfile
+  141  cat sub_data
+  142  cat subfile
+  143  cd -
+  144  cd /
+  145  cd ..
+  146  cd home
+  147  ls
+  148  cd
+  149  ls
+  150  ls data
+  151  ls datasession
+  152  cat datasession
+  153  ls
+  154  wc *.pdb
+  155  cd data
+  156  ls
+  157  wc *.pdf
+  158  cd
+  159  uname
+  160  uname -a
+  161  wget
+  162  wget
+  163  wget www.tigeranalytics.com
+  164  history
+  165  cd
+  166  cd files
+  167  ls
+  168  cat file2.txt
+  169  cat file2.txt | grep to
+  170  hostname
+  171  ping
+  172  cd
+  173  ping
+  174  ping www.youtube.com
+  175  quit
+  176  exit
+  177  ls
+  178  exit
+  179  sudo apt instant git-all
+  180  git --version
+  181  sudo apt-get install ascidoc xmlto docbook2x
+  182  sudo apt-get install dh-autoreconf libcurl4-bnuts-dev libexpat1-dev \ gettext libz-dev libssl-dev
+  183  sudo apt-get install install-info
+  184  git config --list
+  185  git config
+  186  git cinfig --list
+  187  git config --list
+  188  git config --bool
+  189  git config user.name
+  190  sravan
+  191  cd C:/Users/my_project
+  192  git init
+  193  git://
+  194  git status
+  195  echo 'my project' >README
+  196  git add README
+  197  git status
+  198  echo 'task' > test
+  199  git status
+  200  git add contributing.md
+  201  git add test.md
+  202  git add task.md
+  203  git add CONTRIBUTING.md
+  204  git  status -s
+  205  cat .gitignore
+  206  s1 .gitignore
+  207  s1.gitignore
+  208  git diff
+  209  git diff --staged
+  210  git add datas.md
+  211  git commit
+  212  omit ==global
+  213  Omit --global
+  214  git remote
+  215  git remote origin
+  216  git remote add pb https://github.com/sravan9739
+  217  git fetch pb
+  218  git clone https://github.com/sravan9739
+  219  git remote show origin
+  220  git origin
+  221  git add README test.rb LICENSE
+  222  git  ranch testing
+  223  git  branch testing
+  224  git checkout master
+  225  git log --all
+  226  git log
+  227  exit
+  228  git config --global user.name "sravan kumar"
+  229  git config --global user.email sravan.maripi@tigeranalytics.com
+  230  git config
+  231  pwd
+  232  mkdir git-demo
+  233  rm git-demo
+  234  rm -rf git-demo
+  235  pwd
+  236  mkdir gitdemo
+  237  cd gitdemo
+  238  mkdir test1
+  239  git init
+  240  cd test1
+  241  git init
+  242  note1.txt
+  243  touch note1.txt
+  244  notepad note1.txt
+  245  nano note1.txt
+  246  git status
+  247  git add note1.txt
+  248  git status
+  249  git commit -m "this is my first note1.txt file "
+  250  git status
+  251  git log
+  252  cd test.txt
+  253  cd demo
+  254  cd gitdemo
+  255  cd git-demo
+  256  cd .
+  257  cd
+  258  pwd
+  259  mkdir demo2
+  260  cd git-demo
+  261  pwd
+  262  ls
+  263  cd gitdemo
+  264  nano test1.txt
+  265  cd test1
+  266  nano test1.txt
+  267  cat test1.txt
+  268  git status
+  269  git add test1.txt
+  270  git status
+  271  git log
+  272  git add .
+  273  git status
+  274  cd gitdemo
+  275  cd ..
+  276  git status
+  277  cat test1.txt
+  278  git commit -m"this my second commit"
+  279  git add test1.txt
+  280  git commit -m"this my 2nd commit"
+  281  git log
+  282  nano test2.txt
+  283  git status
+  284  nano test2.txt
+  285  git status
+  286  git log
+  287  git add test2.txt
+  288  git status
+  289  git log
+  290  git commit -m"second modified file "
+  291  git log
+  292  git remote add origin https://github.com/sravan9739/gitdemo.git
+  293  git remote -v
+  294  git push -u origin master
+  295  git remote add origin https://github.com/sravan9739/gitdemo.git
+  296  git push -u origin master
+  297  cd
+  298  app install gnults-bin
+  299  sudo apt install gnutls-bin
+  300  clear
+  301  git push -u origin master
+  302  cd gitdemo
+  303  git push -u origin master
+  304  cd .
+  305  cd ..
+  306  git clone
+  307  git remote
+  308  git checkout
+  309  git history
+  310  git --help
+  311  git diff
+  312  git log
+  313  cd gitdemo
+  314  git diff
+  315  git lopg
+  316  git log
+  317  git log stats
+  318  cd .
+  319  cd ..
+  320  git stats
+  321  git status
+  322  git add datasession
+  323  cat datasession
+  324  git commit datasession
+  325  git add datasession
+  326  git status
+  327  git log
+  328  cd gitdemo
+  329  git log n--pretty=oneline
+  330  git log --pretty=oneline
+  331  git log --pretty=twoline
+  332  ls
+  333  git branch dm1
+  334  ls
+  335  git checkout dm1
+  336  ls
+  337  nano dm1.txt
+  338  git add .
+  339  git commit -m"branch"
+  340  git status
+  341  cd
+  342  git branch
+  343  ls
+  344  cd gitdemo
+  345  git branch
+  346  pwd
+  347  dir
+  348  ls -al
+  349  ls -a
+  350  ls -R
+  351  git status
+  352  git log
+  353  cd git demo
+  354  cd gitdemo
+  355  git status
+  356  git log
+  357  dir
+  358  cd test1.txt
+  359  cd dm1.txt
+  360  dm1.txt
+  361  pwd
+  362  cat dm1.txt
+  363  cat test1.txt
+  364  cat test2.txt
+  365  history
+sravan@TIGER02308:~/gitdemo$ cd .
+sravan@TIGER02308:~/gitdemo$ cd ..
+sravan@TIGER02308:~$ exit
+exit
+
+Script done on 2022-03-15 12:14:42+05:30 [COMMAND_EXIT_CODE="0"]
+sravan@TIGER02308:~$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README
+        new file:   datasession
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bash_logout
+        .bashrc
+        .gitconfig
+        .landscape/
+        .motd_shown
+        .profile
+        .sudo_as_admin_successful
+        data/
+        file.pdf
+        files/
+        gitdemo/
+        index.html
+        my-unix-session
+        s1.txt
+        sample.txt
+        srava
+        test
+
+sravan@TIGER02308:~$ git add my-unix-session
+
+sravan@TIGER02308:~$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README
+        new file:   datasession
+        new file:   my-unix-session
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        .bash_logout
+        .bashrc
+        .gitconfig
+        .landscape/
+        .motd_shown
+        .profile
+        .sudo_as_admin_successful
+        data/
+        file.pdf
+        files/
+        gitdemo/
+        index.html
+        s1.txt
+        sample.txt
+        srava
+        test
+
+sravan@TIGER02308:~$ git log
+fatal: your current branch 'master' does not have any commits yet
+sravan@TIGER02308:~$ git commit my-unix-session
+Aborting commit due to empty commit message.
+sravan@TIGER02308:~$ git log
+fatal: your current branch 'master' does not have any commits yet
+sravan@TIGER02308:~$ git init
+Reinitialized existing Git repository in /home/sravan/.git/
+sravan@TIGER02308:~$ git status
+On branch master
+
+
+
+sravan@TIGER02308:~$ git log
+fatal: your current branch 'master' does not have any commits yet
