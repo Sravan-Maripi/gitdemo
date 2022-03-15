@@ -1,7 +1,8 @@
 #assessment 1.1
 this my git repository for testing
 
-Assessment 1.1. Hands on session 
+Hands on Excersises:
 
-##Unix shell //## Git commands
+##Unix shell //## Git commands  // Miniconda Actvities
+
 
